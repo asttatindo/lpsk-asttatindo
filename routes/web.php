@@ -81,4 +81,12 @@ Route::group(['middleware' => 'type: 1'], function () {
 Route::get('/', 'App\Http\Controllers\visitorController@index');
 Route::get('/tentang', 'App\Http\Controllers\visitorController@tentang');
 Route::get('/struktur', 'App\Http\Controllers\visitorController@struktur');
+Route::get('/tuk', 'App\Http\Controllers\visitorController@tuk');
+Route::get('/cek-status', 'App\Http\Controllers\visitorController@cekstatus');
+Route::get('/skema', 'App\Http\Controllers\visitorController@skema');
+Route::get('/unduh-persyaratan', 'App\Http\Controllers\visitorController@unduh');
+Route::get('/cek-keanggotaan', 'App\Http\Controllers\visitorController@keanggotaan');
+Route::get('/statistik-ahli', 'App\Http\Controllers\visitorController@statistikahli');
+Route::get('/statistik-teknisi', 'App\Http\Controllers\visitorController@statistikteknisi');
+Route::get('/statistik-operator', 'App\Http\Controllers\visitorController@statistikoperator');
 Route::get('/{slug}', 'App\Http\Controllers\visitorController@detailpost');

@@ -427,20 +427,20 @@
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">CEK STATUS PROSES SERTIFIKASI
+                                            <a class="paddinga margina" href="/cek-status">CEK STATUS PROSES SERTIFIKASI
                                                 UNTUK ASESI
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">SKEMA
+                                            <a class="paddinga margina" href="/skema">SKEMA
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">TUK
+                                            <a class="paddinga margina" href="/tuk">TUK
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">UNDUH PERSYARATAN
+                                            <a class="paddinga margina" href="/unduh-persyaratan">UNDUH PERSYARATAN
                                             </a>
                                         </li>
                                     </ul>
@@ -450,19 +450,19 @@
                                     </a>
                                     <ul>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">CEK KEANGGOTAAN
+                                            <a class="paddinga margina" href="/cek-keanggotaan">CEK KEANGGOTAAN
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">STATISTIK AHLI
+                                            <a class="paddinga margina" href="/statistik-ahli">STATISTIK AHLI
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">STATISTIK TEKNISI
+                                            <a class="paddinga margina" href="/statistik-teknisi">STATISTIK TEKNISI
                                             </a>
                                         </li>
                                         <li class="marginb">
-                                            <a class="paddinga margina" href="#">STATISTIK OPERATOR
+                                            <a class="paddinga margina" href="/statistik-operator">STATISTIK OPERATOR
                                             </a>
                                         </li>
                                     </ul>

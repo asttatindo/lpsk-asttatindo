@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Proses Permohonan
+    <title>SKEMA
     </title>
     <meta name="author" content="">
     <meta name="keywords" content="">
@@ -334,12 +334,6 @@
             padding: 25px 0px 25px;
         }
 
-        .permohonan {
-            text-align: center;
-            font-style: bold;
-            font-size: 20px;
-        }
-
         .color_h {
             color: #000;
         }
@@ -418,7 +412,6 @@
                                     <a>SERTIFIKASI
                                     </a>
                                     <ul>
-
                                         <li class="marginb">
                                             <a class="paddinga margina" href="/proses-permohonan">PROSES PERMOHONAN
                                             </a>
@@ -538,76 +531,26 @@
     <section class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-8">
-                    <div class="post-content">
-                        <div class="post-meta">
+                <div class="post-content">
+                    <div class="post-meta">
+                    </div>
+                    <div class="post-description">
+                        <h1>
+                            <b>Skema
+                            </b>
+                        </h1>
+                        <h3>LSPK Asttatindo
+                        </h3>
+                        <br>
+                        <div class="post-img">
+                            <img src="tentang-asttatindo.png">
                         </div>
-                        <div class="post-description">
-                            <h1>
-                                <b>
-                                    <center> Alur Proses Permohonan </center>
-                                </b>
-                            </h1>
-                            <hr>
-                            <div class="post-img">
-                                <p class="permohonan">Permohonan Sertifikat Baru</p>
-                                <hr>
-                                <img src="permohonansertifikatbaru.png">
-                                <div>
 
-                                    <br>
-                                    <hr>
-                                    <p class="permohonan">Permohonan Perpanjangan Sertifikat</p>
-                                    <hr>
-                                    <img src="sertifikatperpanjangan.png">
-                                </div>
-                                <div><br>
-                                    <hr>
-                                    <p class="permohonan">Permohonan Sertifikat Kenaikan Jenjang atau Kualifikasi</p>
-                                    <hr>
-                                    <img src="kenaikanjenjang.png">
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                    <br>
-                    <br>
-                    <div class="widget-main">
-                        <h4>Artikel Terbaru
-                        </h4>
-                        <?php foreach ($post as $postingan) : ?>
-                        <div class="sidebar-widget clearfix" <a href="/{{ $postingan->slug }}">
-                            <img src="{{ $postingan->gambar }}" alt="">
-                            </a>
-                            <p class="sidebar-widget-title">
-                                <a href="/{{ $postingan->slug }}">{{ $postingan->judul }}
-                                </a>
-                            </p>
-                            <p class="date">{{ $postingan->created_at->diffForHumans() }}
-                            </p>
-                        </div>
-                        <?php endforeach; ?>
-                    </div>
-                    <div class="widget-main">
-                        <h4>Visi
-                        </h4>
-                        <p>Menjadi lembaga sertifikasi profesi yang profesional untuk menghasilkan tenaga kerja yang
-                            berdaya saing global, unggul, terpercaya dan berakhlak mulia serta berwawasan lingkungan
-                            tahun 2024
-                        </p>
-                    </div>
-                    <!-- <div class="widget-main">
-            <h4>Kategori
-            </h4>
-            <div class="tags">
-              <a href="">Pendidikan
-              </a>
             </div>
-          </div> -->
-                </div>
-            </div>
+        </div>
+        </div>
         </div>
     </section>
     <a href="#" class="scrollup">
@@ -714,7 +657,7 @@
         <li class="nav__item">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.753278424595!2d106.844378!3d-6.213958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3af1fa5579bc844!2sDpp%20Asttatindo!5e0!3m2!1sen!2sus!4v1628044833384!5m2!1sen!2sus"
-                width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy">
+                width="320" height="240" style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
         </li>
     </ul>

@@ -22,7 +22,7 @@ class visitorController extends Controller
     public function tentang () {
         $post = \App\Models\post::paginate(5);
         return view ('visitor.blog', compact('post'));
-    } 
+    }
 
     public function detailpost ($slug) {
         $data = \App\Models\post::where('slug', $slug)->get();
@@ -30,7 +30,7 @@ class visitorController extends Controller
         if (count($data) == 0) {
             $post = \App\Models\post::paginate(5);
             return view ('visitor.notfound', compact('post'));
-        } 
+        }
         return view ('visitor.isipost', compact('data', 'post'));
     }
 
@@ -38,6 +38,46 @@ class visitorController extends Controller
         $post = \App\Models\post::paginate(5);
         return view ('visitor.struktur', compact('post'));
     }
+    public function tuk () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.tuk', compact('post'));
+    }
+
+    public function cekstatus () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.cekstatus', compact('post'));
+    }
+
+    public function skema () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.skema', compact('post'));
+    }
+
+    public function unduh () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.unduh', compact('post'));
+    }
+
+    public function keanggotaan () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.keanggotaan', compact('post'));
+    }
+
+    public function statistikahli () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.statistikahli', compact('post'));
+    }
+
+    public function statistikteknisi () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.statistikteknisi', compact('post'));
+    }
+
+    public function statistikoperator () {
+        $post = \App\Models\post::paginate(5);
+        return view ('visitor.statistikoperator', compact('post'));
+    }
+
 
     public function asesor () {
         $asesor = \App\Models\asesor::all();
