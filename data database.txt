@@ -1,0 +1,4 @@
+host: localhost
+db name: id20137143_lspk
+db user: id20137143_lspk_user
+pw db: ars9tzI)E&wx~A1%
