@@ -360,6 +360,16 @@
         .d-flex {
             display: flex;
         }
+
+        .search__styleds::placeholder {
+            color: #CCCCCC !important;
+        }
+
+        .box__tux {
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25) !important;
+            border-radius: 10px !important;
+
+        }
     </style>
 
 <body data-spy="scroll" data-target="#main-menu">
@@ -543,7 +553,20 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <input type="search" placeholder="Cari Tempat Uji Kompetensi" class="search__styleds"
+                                style="padding: 1rem; border: 1px solid #000; border-radius: 5px">
+
+                            <div style="padding: 2rem; max-width: 300px;" class="box__tux">
+                                <div style="display: flex; justify-content: center;">
+                                    <img src="logo-pnj.png" style="margin: 1rem; width: 60%;">
+                                </div>
+                                <p style="display: flex; justify-content: center; margin: 1rem;"><b>POLITEKNIK NEGERI
+                                        JAKARTA</b>
+                                </p>
+                                <p style="margin-bottom: 0;">Jl. Prof. DR. G.A. Siwabessy, Kukusan, Kecamatan Beji,
+                                    Kota Depok, Jawa Barat 16425
+                                </p>
+                            </div>
                         </div>
 
                     </div>

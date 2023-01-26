@@ -543,7 +543,14 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <p>ASTTATINDO merupakan Asosiasi Profesi dengan jumlah anggota cukup besar secara Nasional.
+                                Data bulan Mei 2020 memiliki anggota berjumlah 6000 Orang bersertifikat SKA (Sertifikat
+                                Keahlian)dan 6.500 Orang bersertifikat SKT (Sertifikat Keterampilan) yang diterbitkan
+                                LPJK.</p>
+                            <p><b>PETA SEBARAN ANGGOTA ASTTATINDO DI INDONESIA
+                                    (BERSERTIFIKAT KEAHLIAN KLASIFIKASI SIPIL):
+                                </b></p>
+                            <img src="peta.png" alt="">
                         </div>
 
                     </div>

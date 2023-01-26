@@ -360,6 +360,23 @@
         .d-flex {
             display: flex;
         }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
     </style>
 
 <body data-spy="scroll" data-target="#main-menu">
@@ -543,8 +560,48 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Kualifikasi
+                                    </th>
+                                    <th>
+                                        Jabatan Kerja
+                                    </th>
+                                    <th>
+                                        Jenjang
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Teknisi / Analisis
+                                    </td>
+                                    <td>
+                                        Manajer Lapangan Pelaksanaan Pekerjaan Gedung
+                                    </td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Pengawas Pekerjaan Struktur
+                                        Bangunan Gedung</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Kepala Pengelola Lingkungan
+                                        Bangunan Gedung</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Pelaksana Lapangan Pekerjaan
+                                        Bangunan Perumahan dan Gedung</td>
+                                    <td>6</td>
+                                </tr>
+                            </table>
                         </div>
+
 
                     </div>
                 </div>

@@ -360,6 +360,23 @@
         .d-flex {
             display: flex;
         }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
     </style>
 
 <body data-spy="scroll" data-target="#main-menu">
@@ -543,7 +560,45 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Kualifikasi
+                                    </th>
+                                    <th>
+                                        Jabatan Kerja
+                                    </th>
+                                    <th>
+                                        Jenjang
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Operator
+                                    </td>
+                                    <td>
+                                        Tukang Cat Bangunan Gedung
+                                    </td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Tukang Plester Bangunan Gedung</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Tukang Pasang Plafon (Pembantu
+                                        Pelaksana Pemasangan Plafon (ADOP))</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Tukang Kusen Pintu dan Jendela
+                                        Bertingkat</td>
+                                    <td>4</td>
+                                </tr>
+                            </table>
                         </div>
 
                     </div>

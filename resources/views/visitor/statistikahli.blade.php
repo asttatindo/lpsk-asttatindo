@@ -360,6 +360,23 @@
         .d-flex {
             display: flex;
         }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
     </style>
 
 <body data-spy="scroll" data-target="#main-menu">
@@ -543,7 +560,46 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Kualifikasi
+                                    </th>
+                                    <th>
+                                        Jabatan Kerja
+                                    </th>
+                                    <th>
+                                        Jenjang
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Ahli
+                                    </td>
+                                    <td>
+                                        Ahli Teknik Bangunan Gedung
+                                    </td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Manajer/Kepala Proyek Bangunan
+                                        Gedung</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Ahli Muda Perencana Beton Pracetak
+                                        Untuk Struktur Bangunan Gedung</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Ahli Rekayasa Konstruksi Bangunan
+                                        Gedung</td>
+                                    <td>9</td>
+                                </tr>
+                            </table>
                         </div>
 
                     </div>

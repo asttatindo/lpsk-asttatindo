@@ -360,6 +360,22 @@
         .d-flex {
             display: flex;
         }
+
+        .table__unduh {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .thtd__unduh {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
     </style>
 
 <body data-spy="scroll" data-target="#main-menu">
@@ -543,7 +559,36 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <table class="table__unduh">
+                                <tr>
+                                    <th class="thtd__unduh">Nama Dokumen</th>
+                                    <th class="thtd__unduh">Keterangan</th>
+                                </tr>
+                                <tr>
+                                    <td class="thtd__unduh">IJAZAH</td>
+                                    <td class="thtd__unduh">Memiliki ijazah lulusan S2 Program Studi K3 dan atau D3/S1
+                                        Teknik maupun Non
+                                        Teknik dengan memenuhi persyaratan nomor 2 dan nomor 3 dibawah ini.</td>
+                                </tr>
+                                <tr>
+                                    <td class="thtd__unduh">SERTIFIKAT</td>
+                                    <td class="thtd__unduh">Memiliki sertifikat pelatihan berbasis kompetensi untuk
+                                        jabatan Ahli Madya K3 Konstruksi</td>
+                                </tr>
+                                <tr>
+                                    <td class="thtd__unduh">SURAT KETERANGAN</td>
+                                    <td class="thtd__unduh">Tenaga Kerja pada jabatan Ahli Madya K3 Konstruksi
+                                        (Construction Safety Engineer), yang berpengalaman kerja minimum selama 1 tahun
+                                        secara berkelanjutan.</td>
+                                </tr>
+                                <tr>
+                                    <td class="thtd__unduh">CV</td>
+                                    <td class="thtd__unduh">Curriculum Vitae,Daftar Pengalaman Kerja Pemohon selama
+                                        3(tiga) tahun terakhir dibuktikan dengan Referensi Kerja (dari pengguna jasa/
+                                        pemberi tugas/ owner) dan CV tersebut diketahui oleh perusahaan dibubuhi tanda
+                                        tangan dan cap</td>
+                                </tr>
+                            </table>
                         </div>
 
                     </div>

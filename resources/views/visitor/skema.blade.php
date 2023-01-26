@@ -543,7 +543,23 @@
                         </h3>
                         <br>
                         <div class="post-img">
-                            <img src="tentang-asttatindo.png">
+                            <h2>MEMILIH SKEMA SERTIFIKASI</h2>
+
+                            <p>PILIHLAH SKEMA YANG AKAN DIUJIKAN, PILIH SALAH SATU:</p>
+
+                            <form action="/skema">
+                                <label for="skema">Pilih Skema:</label><br />
+                                <select id="skema" name="skema" style="width: 80%">
+                                    <option value="s1">Skema 1</option>
+                                    <option value="s2">Skema 2</option>
+                                    <option value="s3">Skema 3</option>
+                                    <option value="s4">Skema 4</option>
+                                </select>
+                                <br />
+                                <button
+                                    style=" padding: 1rem 2rem; background-color: #CD5F1F !important; border-radius: 5px; color: white">DAFTAR</button>
+                            </form>
+
                         </div>
 
                     </div>
